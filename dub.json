@@ -1,0 +1,18 @@
+{
+	"authors": [
+		"zacharyalexander"
+	],
+	"copyright": "[Public domain]",
+	"dependencies": {
+		"fluid": "~>0.7.3",
+		"glfw-d": "~>1.1.1",
+		"hibernated": "~>0.4.0",
+		"raylib-d": "~>5.5.1"
+	},
+	"libs": [
+		"raylib"
+	],
+	"description": "A minimal D application.",
+	"license": "Unlicense",
+	"name": "fluid-starter-project"
+}
