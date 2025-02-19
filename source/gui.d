@@ -7,19 +7,16 @@ import fluid;
 import raylib;
 
 import shared_data;
+import gui_components;
 
 private Space root;
 
-Space rootScreen() {
-    return vspace(
-        .layout!"center",
-        label(.layout!"center", "Button has been clicked " ~ to!string(counter) ~ " times."),
-        button(.layout!"center", "Click me!", delegate () @trusted { counter++; }),
-    );
+static this() {
+    refreshCounter();
 }
 
-static this() {
-    root = rootScreen();
+void refreshCounter() {
+    root = rootScreen(&refreshCounter);
 }
 
 void draw() {

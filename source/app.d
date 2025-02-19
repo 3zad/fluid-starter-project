@@ -1,7 +1,6 @@
 import std.stdio;
 import std.conv;
 
-import fluid;
 import raylib;
 
 import core.stdc.stdio;
