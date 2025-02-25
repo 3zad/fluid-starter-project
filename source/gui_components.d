@@ -7,7 +7,6 @@ import fluid;
 import raylib;
 
 import shared_data;
-import shared_gui;
 
 private Space root;
 
